@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2> 
+    <form>
+        <!-- Text boxes -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+         
+        <!-- Radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label>Choose your favorite Web language:</label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <!-- Checkboxes -->
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br><br>
+         
+        <!-- Drop-Down boxes -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Select</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+        </select><br><br>
+         
+        <!-- Submit buttons -->
+        <button type="submit">Submit</button>
+    </form>
+ 
+</body>
+</html>
